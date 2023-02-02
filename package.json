@@ -1,0 +1,22 @@
+{
+  "name": "szakdoga",
+  "version": "1.0.0",
+  "description": "Szakdolgozat projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.11.0",
+    "@distube/soundcloud": "^1.2.1",
+    "@distube/spotify": "^1.3.2",
+    "@distube/yt-dlp": "^1.1.3",
+    "discord.js": "^14.0.3",
+    "distube": "^4.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "libsodium-wrappers": "^0.7.10"
+  }
+}
