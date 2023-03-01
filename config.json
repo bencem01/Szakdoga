@@ -1,6 +1,6 @@
 {
-    "prefix": "-",
-    "token": "MTA2NzQ1MTgwNTUzNTA0Nzc0MQ.Ge8glc.NedaTSIbuh1AdNRWyllYmYY1iNdijJjNdWlVJU",
+    "prefix": "your bot prefix here",
+    "token": "your bot token here",
     "emoji": {
       "play": "▶️",
       "stop": "⏹️",
