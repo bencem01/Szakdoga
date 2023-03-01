@@ -7,7 +7,7 @@ module.exports = {
     message.channel.send({
       embeds: [
         new Discord.EmbedBuilder()
-          .setTitle('Commands')
+          .setTitle('Parancsok')
           .setDescription(client.commands.map(cmd => `\`${cmd.name}\``).join(', '))
           .setColor('BLURPLE')
       ]
