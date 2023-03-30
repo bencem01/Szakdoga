@@ -1,6 +1,6 @@
 {
-    "prefix": "your bot prefix here",
-    "token": "your bot token here",
+    "prefix": "A te prefixed",
+    "token": "A te tokened",
     "emoji": {
       "play": "▶️",
       "stop": "⏹️",

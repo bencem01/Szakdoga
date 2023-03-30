@@ -68,7 +68,7 @@ client.on('messageCreate', async message => {
 })
 
 const status = queue =>
-`Volume: \`${queue.volume}%\``
+`Hangerő: \`${queue.volume}%\``
 client.distube
   .on('playSong', (queue, song) =>
     queue.textChannel.send(
@@ -84,13 +84,13 @@ client.distube
   )
   .on('addList', (queue, playlist) =>
     queue.textChannel.send(
-      `${client.emotes.success} | Hozzáadva \`${playlist.name}\` playlist (${
+      `${client.emotes.success} | Hozzáadva \`${playlist.name}\` lejátszási lista (${
         playlist.songs.length
-      } songs) to queue\n${status(queue)}`
+      } dalok) a sorba\n${status(queue)}`
     )
   )
   .on('error', (channel, e) => {
-    if (channel) channel.send(`${client.emotes.error} | An error encountered: ${e.toString().slice(0, 1974)}`)
+    if (channel) channel.send(`${client.emotes.error} | Egy hibába futottunk: ${e.toString().slice(0, 1974)}`)
     else console.error(e)
   })
   .on('empty', channel => channel.send('A hangcsatorna üres! Szoba elhagyása...'))
